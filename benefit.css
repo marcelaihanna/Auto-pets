@@ -1,0 +1,39 @@
+.benefit_page{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding-top: 5.5em;
+    padding-bottom: 7em;
+}
+.benefit_div{
+    display: flex;
+    flex-direction: column;
+    width:60em;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+.title_benefit{
+    color: var(--blue3);
+    font-weight: 800;
+}
+
+@media screen and (max-width: 600px){
+    .benefit_page{
+        margin-top: 0;
+        padding-top: 5em;
+    }
+    .benefit_div{
+        display: flex;
+        flex-direction: column;
+        width: 20em;
+        align-items: center;
+        text-align: center;
+        gap: 1em;
+    }
+    .title_benefit{
+        color: var(--blue3);
+        font-weight: 800;
+        margin-bottom: 0.8em;
+    }
+}

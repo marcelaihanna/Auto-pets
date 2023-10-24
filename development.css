@@ -1,0 +1,106 @@
+.devlopment_page{
+    margin-top: 5em;
+    padding-top: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue3);
+    padding-bottom: 7em;
+}
+.img_devlopment{
+     width: 300px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 1em;
+}
+.div_img_devlop{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 9em;
+    margin-right: 4em;
+}
+.div_devlop_separate_img{
+    display: flex;
+    gap: 2em;
+}
+.subtitle_devlop{
+    color: var(--blue1);
+    font-weight: 800;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.div_devlop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    width: 450px;
+    text-align: center;
+    margin-right: 7em;
+}
+.img_devlop{
+    width: 10vw;
+}
+.img_devlopment_text{
+    width: 10vw;
+    border:3px solid var(--blue2);
+    padding-bottom: 4px;
+    background-color: var(--blue2);
+}
+.text_devlop_div{
+    font-size: 0.7em;
+    color: var(--blue3);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2px;
+}
+.title_devlop{
+    color: var(--blue1);
+    margin-bottom: 1em;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 600px){
+    .devlopment_page{
+        margin-top: 4em;
+        padding-top: 7.5em;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--blue3);
+        padding-bottom: 7em;
+    }
+    .div_devlop{
+        display: flex;
+        gap: 1em;
+        width: 20em;
+        margin-right: 0;
+    }
+    .div_img_devlop{
+        width: 20em;
+        margin-top: 3.5em;
+        margin-right: 0;
+    }
+    .img_devlop{
+        width: 6em;
+    }
+    .img_devlopment_text{
+        width: 6em;
+        border:3px solid var(--blue2);
+        padding-bottom: 4px;
+        background-color: var(--blue2);
+    }
+    .div_devlop_separate_img{
+        gap: 1em;
+    }
+    .subtitle_devlop{
+        color: var(--blue1);
+        font-weight: 800;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+}
